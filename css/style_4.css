@@ -83,9 +83,9 @@ body {
 }
 
 .lower {
-    display: flex;
-    justify-content: space-between;
-    gap: 1em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
 }
 
 .card {
