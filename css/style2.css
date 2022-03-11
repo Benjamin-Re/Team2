@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=EB+Garamond&family=Lato:wght@100&family=Libre+Baskerville&family=Open+Sans:wght@300;400&family=Roboto:wght@100&display=swap');
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+:root {
+  font-size: 0.785rem;
+  --blue: #0d6efd;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #d63384;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #198754;
+  --teal: #20c997;
+  --cyan: #0dcaf0;
+  --gray-500: #adb5bd;
+  --black: #000;
+}
+footer {
+  max-width: 80%;
+  min-height: 100%;
+  margin: 5em auto;
+  font-size: 0.785rem;
+
+}
+.box {
+  padding: 1em 3em;
+  display: flex;
+  flex-direction: column;
+  
+ }
+.group {
+  display: flex;
+}
+.card {
+  width: 80%;
+  height: auto;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.2em;
+}
+p {
+  font-size: 0.8rem;
+  color: #7c8081;
+  
+}
+label {
+  font-size: 0.8rem;
+  color: #7c8081;
+}
+small {
+  font-size: 0.8rem;
+  margin: 0;
+  color: #7c8081;
+}
+span {
+  color: hotpink;
+  font-size: 1.1rem;
+}
+a {
+  color: hotpink;
+}
+u {
+  font-size: 0.785rem;
+  color: #7c8081;
+  border-bottom: rgb(0, 0, 0) 2px solid;
+  /* padding: 1em ; */
+  padding-bottom: 4px;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+.after-footer {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.group .card:nth-child(3) {
+  border: 2px solid #d4d5d6;
+  
+  
+}
+
+.group .card {
+  border-top: 2px solid #d4d5d6;
+  border-bottom: 2px solid #d4d5d6;
+}
+
+b {
+  color: #000;
+  margin-left: auto;
+}
