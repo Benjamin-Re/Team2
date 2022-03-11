@@ -5,7 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .section-vic {
@@ -13,8 +13,8 @@
   flex-wrap: wrap;
 }
 .section-vic img {
-width: 100%;
-height: auto;
+  width: 100%;
+  height: auto;
 }
 a {
   margin: 0.4em;
@@ -23,13 +23,13 @@ a {
 
 .photo {
   width: 20%;
-  padding: 0.4em;
+  padding: 0.2em;
 }
 
 .logo {
   display: flex;
   max-width: 70%;
-  margin: 1em auto;
+  margin: 0em auto;
 }
 
 .logo-img {
@@ -38,23 +38,22 @@ a {
 
 .logo-img > img {
   max-width: 160px;
-  /* height: auto; */
+  height: auto;
 }
 .p-vic {
-  margin: 0em 1em;
+  margin: 0em 3em 0em 2em;
   color: black;
   font-style: italic;
-  font-family: "Montserrat";
-  font-size: 0.6em;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
   display: flex;
   align-items: center;
 }
 
 .icons {
-  font-size: 0.6em;
+  font-size: 1em;
   margin: 0em 1em;
   color: black;
   display: flex;
   align-items: center;
 }
-
