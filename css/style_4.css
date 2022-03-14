@@ -34,6 +34,7 @@ body {
     padding: 1em 3em;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .karla {
@@ -52,18 +53,20 @@ body {
 .ben {
 
     padding: 1em 6em;
-
+    width: 80%;
 }
 
 .upper {
-
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 1em;
 }
 
 .ben span {
     color: magenta;
     font-size: .7em;
+    letter-spacing: .2em;
+    font-weight: 300;
 }
 
 .ben button {
@@ -80,6 +83,9 @@ body {
 
 .upper h2 {
     width: 100%;
+    font-size: 1.8em;
+    margin-top: -9px;
+    margin-bottom: .9rem;
 }
 
 .lower {
@@ -106,14 +112,15 @@ img {
 }
 
 .social {
-    margin-top: .6em;
+    margin: 1em;
     display: flex;
     justify-content: center;
-    gap: .6em;
+    gap: .9em;
 }
 
 .fa-brands{
-    color: lightgray;
+    margin: .5rem .5rem 1.2rem .5rem;
+    color: gray;
 }
 
 /* VIKTOR */
